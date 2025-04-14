@@ -42,68 +42,73 @@ ninja.data = [{
         title: "ARIA project awarded!",
       
       description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/aria/";
-        
-      },
-    },{id: "post-multitip-project-awarded",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/aria/";
+          
+        },
+      },{id: "post-multitip-project-awarded",
       
         title: "MultiTip project awarded!",
       
       description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/multitip/";
-        
-      },
-    },{id: "post-next-concert-announced",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/multitip/";
+          
+        },
+      },{id: "post-next-concert-announced",
       
         title: "Next concert announced",
       
       description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/briso_autumn_2024/";
-        
-      },
-    },{id: "post-manibot-project-started",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/briso_autumn_2024/";
+          
+        },
+      },{id: "post-manibot-project-started",
       
         title: "MANiBOT project started!",
       
       description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/manibot/";
-        
-      },
-    },{id: "post-phd-studentship-on-bimanual-robotic-manipulation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/manibot/";
+          
+        },
+      },{id: "post-phd-studentship-on-bimanual-robotic-manipulation",
       
         title: "PhD studentship on bimanual robotic manipulation",
       
       description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/phd-manibot/";
-        
-      },
-    },{id: "post-uk-ras-showcase",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/phd-manibot/";
+          
+        },
+      },{id: "post-uk-ras-showcase",
       
         title: "UK-RAS Showcase",
       
       description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/ukras-showcase/";
-        
-      },
-    },{id: "news-a-simple-inline-announcement",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/ukras-showcase/";
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
