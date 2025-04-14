@@ -25,7 +25,7 @@ ninja.data = [
           {%- unless child.title == 'divider' -%}
             {
               {%- assign title = child.title | escape | strip -%}
-              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.url -%}{%- endif -%}
+              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.permalink -%}{%- endif -%}
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
               description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
@@ -52,6 +52,7 @@ ninja.data = [
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
+  {%- if site.posts_in_search -%}
   {%- for post in site.posts -%}
     {
       {%- assign title = post.title | escape | strip -%}
@@ -64,18 +65,19 @@ ninja.data = [
         title: "{{ title | truncatewords: 13 }}",
       {% endif %}
       description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
-      section: "Posts",
-      handler: () => {
-        {% if post.redirect == blank %}
-          window.location.href = "{{ post.url | relative_url }}";
-        {% elsif post.redirect contains '://' %}
-          window.open("{{ post.redirect }}", "_blank");
-        {% else %}
-          window.location.href = "{{ post.redirect | relative_url }}";
-        {% endif %}
+        section: "Posts",
+        handler: () => {
+          {% if post.redirect == blank %}
+            window.location.href = "{{ post.url | relative_url }}";
+          {% elsif post.redirect contains '://' %}
+            window.open("{{ post.redirect }}", "_blank");
+          {% else %}
+            window.location.href = "{{ post.redirect | relative_url }}";
+          {% endif %}
+        },
       },
-    },
-  {%- endfor -%}
+    {%- endfor -%}
+  {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
       {%- for item in collection.docs -%}

@@ -37,6 +37,7 @@
             sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=true
+            avoid_scaling=true
             alt=entry.preview
           %}
         {% endif %}
@@ -278,6 +279,8 @@
               class="altmetric-embed"
               data-badge-type="2"
               data-badge-popover="right"
+              data-hide-no-mentions="true"
+              data-hide-less-than="5"
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
                 data-altmetric-id="{{ entry.altmetric }}"
               {% elsif entry.arxiv %}
@@ -296,6 +299,7 @@
           {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
             <span
               class="__dimensions_badge_embed__"
+              data-hide-zero-citations="true"
               {% if entry.dimensions != blank and entry.dimensions != 'true' %}
                 data-id="{{ entry.dimensions }}"
               {% elsif entry.doi %}
