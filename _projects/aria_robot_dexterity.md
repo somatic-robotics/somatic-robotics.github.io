@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: Using Artificial Muscles for Robot Dexterity
+description: Advanced Research + Invention Agency
+img: assets/img/man-vs-robot.png
 importance: 1
-category: work
+category: current projects
 related_publications: true
 ---
+
+# Realising the Future of Dexterous Robotics with Flexible Electrohydraulic Artificial Muscles
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -44,7 +46,7 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+You can also put regular text between your rows of images, even citations {% cite 10496158 %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 

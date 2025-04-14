@@ -1,9 +1,9 @@
 ---
 layout: page
 title: MANiBOT
-description: Advancing the physical intelligence and performance of roBOTs towards human-like bi-manual objects MANipulation | Horizon Europe
+description: Horizon Europe
 img: assets/img/manibot.jpg
 redirect: https://manibot-project.eu/
-importance: 1
+importance: 3
 category: current projects
 ---
