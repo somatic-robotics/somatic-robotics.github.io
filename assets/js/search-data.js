@@ -178,11 +178,6 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
@@ -193,6 +188,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-using-artificial-muscles-for-robot-dexterity",
+          title: 'Using Artificial Muscles for Robot Dexterity',
+          description: "Advanced Research + Invention Agency",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aria_robot_dexterity/";
             },},{id: "projects-grasping",
           title: 'Grasping',
           description: "",
@@ -210,9 +210,14 @@ ninja.data = [{
               window.location.href = "/projects/learning/";
             },},{id: "projects-manibot",
           title: 'MANiBOT',
-          description: "Advancing the physical intelligence and performance of roBOTs towards human-like bi-manual objects MANipulation | Horizon Europe",
+          description: "Horizon Europe",
           section: "Projects",handler: () => {
               window.location.href = "/projects/manibot/";
+            },},{id: "projects-multitip",
+          title: 'MultiTip',
+          description: "Royal Society International Collaboration Award",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/multitip/";
             },},{id: "projects-piros",
           title: 'PIROS',
           description: "Physically Interactive Robot Services | Aristeia I",
