@@ -38,10 +38,10 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "post-aria-project-awarded",
-      
-        title: "ARIA project awarded!",
-      
-      description: "",
+        
+          title: "ARIA project awarded!",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -49,10 +49,10 @@ ninja.data = [{
           
         },
       },{id: "post-multitip-project-awarded",
-      
-        title: "MultiTip project awarded!",
-      
-      description: "",
+        
+          title: "MultiTip project awarded!",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -60,10 +60,10 @@ ninja.data = [{
           
         },
       },{id: "post-next-concert-announced",
-      
-        title: "Next concert announced",
-      
-      description: "",
+        
+          title: "Next concert announced",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -71,10 +71,10 @@ ninja.data = [{
           
         },
       },{id: "post-manibot-project-started",
-      
-        title: "MANiBOT project started!",
-      
-      description: "",
+        
+          title: "MANiBOT project started!",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -82,10 +82,10 @@ ninja.data = [{
           
         },
       },{id: "post-phd-studentship-on-bimanual-robotic-manipulation",
-      
-        title: "PhD studentship on bimanual robotic manipulation",
-      
-      description: "",
+        
+          title: "PhD studentship on bimanual robotic manipulation",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -93,10 +93,10 @@ ninja.data = [{
           
         },
       },{id: "post-uk-ras-showcase",
-      
-        title: "UK-RAS Showcase",
-      
-      description: "",
+        
+          title: "UK-RAS Showcase",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
