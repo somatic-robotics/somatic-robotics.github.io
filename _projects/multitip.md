@@ -4,7 +4,7 @@ title: MultiTip
 description: Royal Society International Collaboration Award
 img: assets/img/multitip.jpg
 importance: 2
-category: current projects
+category: fun
 related_publications: true
 ---
 
@@ -44,7 +44,7 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite 10496158 %}.
+You can also put regular text between your rows of images, even citations {% cite 10496158RAN %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 

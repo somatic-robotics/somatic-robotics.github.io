@@ -4,7 +4,7 @@ title: Using Artificial Muscles for Robot Dexterity
 description: Advanced Research + Invention Agency
 img: assets/img/man-vs-robot.png
 importance: 1
-category: current projects
+category: fun
 related_publications: true
 ---
 
