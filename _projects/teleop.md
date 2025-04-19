@@ -4,7 +4,7 @@ title: Teleoperation
 description: 
 img: assets/img/teleop.png
 importance: 3
-category: themes
+category: research themes
 bibliography: distill.bib
 date: 2022-10-15
 authors:

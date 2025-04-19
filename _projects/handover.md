@@ -4,7 +4,7 @@ title: Handover
 description: 
 img: assets/img/handover.png
 importance: 2
-category: themes
+category: research themes
 bibliography: distill.bib
 date: 2022-10-15
 authors:

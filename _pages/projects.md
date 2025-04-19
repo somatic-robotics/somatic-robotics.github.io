@@ -5,7 +5,7 @@ permalink: /projects/
 description: (theme icons found on IconScout)
 nav: true
 nav_order: 3
-display_categories: [current projects, themes, past projects]
+display_categories: [funded projects, research themes, past projects]
 horizontal: false
 ---
 

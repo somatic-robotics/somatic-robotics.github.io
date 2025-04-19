@@ -4,7 +4,7 @@ title: Grasping
 description:  
 img: assets/img/grasping.png
 importance: 1
-category: themes
+category: research themes
 bibliography: distill.bib
 date: 2022-10-15
 

@@ -4,7 +4,7 @@ title: MultiTip
 description: Royal Society
 img: assets/img/multitip.png
 importance: 2
-category: current projects
+category: funded projects
 bibliography: distill.bib
 date: 2024-10-01
 

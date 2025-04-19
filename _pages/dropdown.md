@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: applications
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: join the lab
+    permalink: /join/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: PhD posts
+    permalink: /phd/
 ---

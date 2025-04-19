@@ -4,7 +4,7 @@ title: DexFlexArM
 description: Advanced Research + Invention Agency
 img: assets/img/aria.png
 importance: 1
-category: current projects
+category: funded projects
 bibliography: distill.bib
 date: 2025-02-15
 
