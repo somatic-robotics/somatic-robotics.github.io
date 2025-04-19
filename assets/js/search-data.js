@@ -37,7 +37,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-aria-project-awarded",
+        },{id: "dropdown-join-the-lab",
+              title: "join the lab",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/join/";
+              },
+            },{id: "dropdown-phd-posts",
+              title: "PhD posts",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/phd/";
+              },
+            },{id: "post-aria-project-awarded",
         
           title: "ARIA project awarded!",
         
