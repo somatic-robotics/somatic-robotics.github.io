@@ -4,8 +4,8 @@ title: Robot Learning
 description: 
 img: assets/img/learning.png
 importance: 4
-category: themes
-bibliography: papers.bib
+category: fun
+bibliography: distill.bib
 date: 2022-10-15
 authors:
   - name: See references list

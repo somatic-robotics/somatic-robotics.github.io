@@ -5,12 +5,16 @@ description:
 img: assets/img/handover.png
 importance: 2
 category: themes
-bibliography: papers.bib
+bibliography: distill.bib
 date: 2022-10-15
 authors:
   - name: See references list
     affiliations:
       name: See references list
+toc:
+    - name: Human-to-robot object handovers
+      subsections:
+      - name: Video
 ---
 
 ## Human-to-robot object handovers

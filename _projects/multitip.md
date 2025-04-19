@@ -1,81 +1,62 @@
 ---
-layout: page
+layout: distill
 title: MultiTip
-description: Royal Society International Collaboration Award
-img: assets/img/multitip.jpg
+description: Royal Society
+img: assets/img/multitip.png
 importance: 2
-category: fun
-related_publications: true
+category: current projects
+bibliography: distill.bib
+date: 2024-10-01
+
+authors:
+  - name: See references list
+    affiliations:
+      name: See references list
+
+toc:
+  - name: Advancing Robot Dexterity with Multimodal Vision-Based Tactile Sensing
+  - name: Summary
+  - name: Objectives
+  - name: Project Partners and Funding
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Advancing Robot Dexterity with Multimodal Vision-Based Tactile Sensing
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+> Project Duration: 36 months
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Summary
+
+In today's fast-paced industries, where repetitive tasks are common, there is a growing need to relieve humans from monotonous jobs while maintaining high productivity. The MultiTip project aims to revolutionize robotics by enhancing how robots sense and manipulate objects with advanced tactile technology.
+
+At the heart of this initiative is the development of MultiTip, a new tactile sensor that mimics human touch. This sensor enables robots to detect both slow and fast skin deformations, allowing them to perceive subtle changes in contact with objects, like human fingertips can perform. Such capabilities are crucial for tasks requiring delicacy and precision, such as assembling electronic components.
+
+The project will integrate various technologies, including accelerometers for vibration detection and Inertial Measurement Units for pose tracking, into the MultiTip sensor. By using a control model trained on a broad spectrum of simulated tactile signals, the transferred model will enable real robot manipulators to interact with objects more agilely. This advancement will allow for manipulations previously only achievable by humans.
+
+
+## Objectives
+
+WP1 – MultiTip with High-frequency and Proprioceptive Sensory Integration. We will elevate the VBTS capabilities to human finger-level by integrating multiple tactile modalities, including accelerometers for vibrations and an inertial measurement system to track the sensor’s poses (translations and rotations) over time.
+
+WP2 – Skin Redesign and Dynamic Modelling. To create a virtual simulator, it will be crucial to accurately model the sensor's deformation and vibration in response to external forces and ensure consistent fabrication quality for the sensor, achieved with a novel 3D-printed flexible mesh-link structure to support the tactile skin.
+
+WP3 – Tactile Data-based Object Manipulations via Sim2Real Transfer. We aim to show object manipulation skills that has been challenging with VBTS based only on SA-type signal sensing, by using the outcomes developed in WP1 and WP2 along with the latest AI techniques that have been trialled in the hosting institution.
+
+Related publications include: <d-cite key="10496158RAN"></d-cite>
+
+## Project Partners and Funding
+
+The place of tenure of this award is the School of Engineering Mathematics and Technology (SEMT), University of Bristol and the Graduate School of Data Science, Kyungpook National University. The award has been made to support the collaboration of Dr Efi Psomopoulou at University of Bristol and Dr Saekwang Nam at Kyungpook National University. The award is funded by the Royal Society and the National Research Foundation of Korea.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logo@2x.png" title="Royal Society logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/White.png" title="University of Bristol logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/SEMTIdentity.png" title="SEMT logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite 10496158RAN %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

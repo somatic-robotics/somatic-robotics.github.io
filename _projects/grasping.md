@@ -5,15 +5,20 @@ description:
 img: assets/img/grasping.png
 importance: 1
 category: themes
-bibliography: papers.bib
+bibliography: distill.bib
 date: 2022-10-15
+
 authors:
   - name: See references list
     affiliations:
       name: See references list
+toc:
+    - name: Stable robotic grasping
+      subsections:
+        - name: Videos
 ---
 
-## Stable robotic grasping <d-cite key="Psomopoulou2021,Psomopoulou2018,Grammatikopoulou2014"></d-cite>.
+## Stable robotic grasping <d-cite key="Psomopoulou2021,Psomopoulou2018,Grammatikopoulou2014"></d-cite>
 * Non model-based torque controller using passivity theory for stability analysis.
 * Deep learning using convolutional neural networks on images from an optical tactile sensor (the TacTip, developed in Bristol Robotics Laboratory).
 * Implementation on two different fully actuated robotic hands.

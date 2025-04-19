@@ -5,12 +5,20 @@ description:
 img: assets/img/teleop.png
 importance: 3
 category: themes
-bibliography: papers.bib
+bibliography: distill.bib
 date: 2022-10-15
 authors:
   - name: See references list
     affiliations:
       name: See references list
+toc:
+  - name: Bilateral teleoperation with haptic feedback for minimally invasive surgery
+    subsections:
+    - name: Abstract
+    - name: Key points
+    - name: Video
+    - name: Project scope
+
 ---
 
 ## Bilateral teleoperation with haptic feedback for minimally invasive surgery.
