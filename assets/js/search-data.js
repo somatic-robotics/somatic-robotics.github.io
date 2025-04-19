@@ -285,7 +285,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("https://bsky.app/profile/efi-robotics.bsky.social", "_blank");
+          window.open("https://bsky.app/profile/efi-robotics.com", "_blank");
         },
       },{
         id: 'social-work',
