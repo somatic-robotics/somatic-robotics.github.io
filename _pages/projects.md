@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: (theme icons found on IconScout)
+description: (non logo icons found on IconScout)
 nav: true
 nav_order: 3
 display_categories: [funded projects, research themes, past projects]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Engineering For Intelligent Robotics # the website title (if blank, full name will be used instead)
+title: EFI Robotics # the website title (if blank, full name will be used instead)
 first_name: Efi
 middle_name: 
 last_name: Psomopoulou
@@ -12,10 +12,10 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Lab website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Logo symbol from <a href="https://icon-icons.com/">icon-icons</a>.
 keywords: robots # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: profile-pic.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://efi-robotics.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -388,7 +388,7 @@ enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
+enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
@@ -444,7 +444,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Lexend:wght@100..900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,800;1,14..32,800&family=Sora:wght@100..800,family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

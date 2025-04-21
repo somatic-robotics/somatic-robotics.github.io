@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: Teleoperation
 description: 
 img: assets/img/teleop.png
@@ -7,25 +7,31 @@ importance: 3
 category: research themes
 bibliography: distill.bib
 date: 2022-10-15
-authors:
-  - name: See references list
-    affiliations:
-      name: See references list
+related_posts: false
 toc:
-  - name: Bilateral teleoperation with haptic feedback for minimally invasive surgery
-    subsections:
-    - name: Abstract
-    - name: Key points
-    - name: Video
-    - name: Project scope
+  sidebar: left
+related_publications: true
+
+# authors:
+#   - name: See references list
+#     affiliations:
+#       name: See references list
+# toc:
+#   - name: Bilateral teleoperation with haptic feedback for minimally invasive surgery
+#     subsections:
+#     - name: Abstract
+#     - name: Key points
+#     - name: Video
+#     - name: Project scope
 
 ---
 
 ## Bilateral teleoperation with haptic feedback for minimally invasive surgery.
+---
 
 ### Abstract
 
-A desktop haptic device is used to teleoperate an industrial redundant and compliant robotic arm with a surgical instrument mounted on its end-effector. The master and slave devices are coupled in a bilateral position-position architecture. Force feedback is provided by the master haptic device to the user, from the position of the slave’s wrist. A surgical task (palpation) that involves force feedback is presented and tested in a user study with surgeons and non-medical participants. Results show that users easily discern between three different materials during palpation given minimal familiarisation time. Active constraint enforcement is also integrated with the system as a sensitive area around the palpation samples which the slave instrument is prohibited to enter <d-cite key="Psomopoulou2020"></d-cite>.
+A desktop haptic device is used to teleoperate an industrial redundant and compliant robotic arm with a surgical instrument mounted on its end-effector. The master and slave devices are coupled in a bilateral position-position architecture. Force feedback is provided by the master haptic device to the user, from the position of the slave’s wrist. A surgical task (palpation) that involves force feedback is presented and tested in a user study with surgeons and non-medical participants. Results show that users easily discern between three different materials during palpation given minimal familiarisation time. Active constraint enforcement is also integrated with the system as a sensitive area around the palpation samples which the slave instrument is prohibited to enter {& cite Psomopoulou2020 %}.
 
 ### Key points
 
@@ -51,8 +57,20 @@ A desktop haptic device is used to teleoperate an industrial redundant and compl
 
 ### Video 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ivSKAxDJ7S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/ivSKAxDJ7S8" style="min-width:280px; min-height:157px;" class="embed-responsive-item" %}
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+
+        </div>
+    </div>
+</div>
+---
 
 ### Project scope
 
-This work was part of the [SMARTsurg project](https://www.smartsurg-project.eu/). Other publications include: <d-cite key="Abeywardena2020,Sani2020,Abeywardena2019,Sayyaddelshad2018,Tzemanaki2018"></d-cite>.
+This work was part of the [SMARTsurg project](https://www.smartsurg-project.eu/). Other publications include: {% cite Abeywardena2020 Sani2020 Abeywardena2019 Sayyaddelshad2018 Tzemanaki2018 %}.

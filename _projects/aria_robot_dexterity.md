@@ -25,7 +25,7 @@ toc:
 
 ## Realising the Future of Dexterous Robotics with Flexible Electrohydraulic Artificial Muscles
 
-> Project Duration: 36 months
+> 2025 - 2028
 
 ## Summary
 

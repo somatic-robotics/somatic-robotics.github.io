@@ -1,12 +1,12 @@
 ---
 layout: about
-title: efi-robotics
+title: home
 permalink: /
-subtitle: EFI Robotics
+subtitle: Engineering For Intelligent Robotics
 
 profile:
   align: right
-  image: profile-pic.png
+  image: ShortLogo.png
   image_cicular: false # crops the image to make it circular
   address: >
   
@@ -25,13 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Based in the School of Engineering Mathematics and Technology and led by Efi Psomopoulou, Assistant Professor at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
+Based in the School of Engineering Mathematics and Technology and led by Dr Efi Psomopoulou, Assistant Professor at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
 
----
 
 ### Research areas
 
-EFI-Robotics aims to create dexterous and safe robotic physical interactions with the environment or humans in unstructured scenarios by combining control methods and machine learning techniques.
+EFI Robotics aims to create dexterous and safe robotic physical interactions with the environment or humans in unstructured scenarios by combining control methods and machine learning techniques.
 * Stable object grasping and in-hand manipulation.
 * Human-inspired human-robot object handover strategies.
 * Control of flexible joint robots with variable elasticity.

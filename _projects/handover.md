@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: Handover
 description: 
 img: assets/img/handover.png
@@ -7,19 +7,25 @@ importance: 2
 category: research themes
 bibliography: distill.bib
 date: 2022-10-15
-authors:
-  - name: See references list
-    affiliations:
-      name: See references list
+related_posts: false
 toc:
-    - name: Human-to-robot object handovers
-      subsections:
-      - name: Video
+  sidebar: left
+related_publications: true
+
+# authors:
+#   - name: See references list
+#     affiliations:
+#       name: See references list
+# toc:
+#     - name: Human-to-robot object handovers
+#       subsections:
+#       - name: Video
 ---
 
 ## Human-to-robot object handovers
-* Approaching phase: Learning by Demonstration using Dynamical Systems with Gaussian Mixture Models <d-cite key="Sidiropoulos2019"></d-cite>.
-* Object load transfer phase: Stable grasping controller with object weight estimation <d-cite key="Psomopoulou2015,Psomopoulou2015b,Psomopoulou2014"></d-cite>.
+---
+* Approaching phase: Learning by Demonstration using Dynamical Systems with Gaussian Mixture Models {% cite Sidiropoulos2019 %}.
+* Object load transfer phase: Stable grasping controller with object weight estimation {% cite Psomopoulou2015 Psomopoulou2015b Psomopoulou2014 %}.
 * Implementation on a KUKA LWR+ arm and a Barrett Hand.
 
 <div class="row mt-3">
@@ -39,4 +45,16 @@ toc:
 
 ### Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWn1Kby0mK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/eWn1Kby0mK8" style="min-width:280px; min-height:157px;" class="embed-responsive-item" %}
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+
+        </div>
+    </div>
+</div>
+

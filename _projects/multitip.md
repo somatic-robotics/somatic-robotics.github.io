@@ -23,7 +23,7 @@ toc:
 
 ## Advancing Robot Dexterity with Multimodal Vision-Based Tactile Sensing
 
-> Project Duration: 36 months
+> 2024 - 2027
 
 ## Summary
 
@@ -48,15 +48,9 @@ Related publications include: <d-cite key="10496158RAN"></d-cite>
 
 The place of tenure of this award is the School of Engineering Mathematics and Technology (SEMT), University of Bristol and the Graduate School of Data Science, Kyungpook National University. The award has been made to support the collaboration of Dr Efi Psomopoulou at University of Bristol and Dr Saekwang Nam at Kyungpook National University. The award is funded by the Royal Society and the National Research Foundation of Korea.
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logo@2x.png" title="Royal Society logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/White.png" title="University of Bristol logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/SEMTIdentity.png" title="SEMT logo" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-md-12">
+        {% include figure.liquid path="assets/img/multitiplogos.png" title="funded by Royal Society" class="rounded z-depth-1" %}
     </div>
 </div>
+
