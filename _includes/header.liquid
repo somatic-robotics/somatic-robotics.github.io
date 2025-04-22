@@ -17,7 +17,9 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            <a class="navbar-brand" href="/">
+              <img src="/assets/img/horizontal.png" width="87" height="30" alt="">
+            </a>
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
