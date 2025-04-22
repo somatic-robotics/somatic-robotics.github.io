@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: EFI Robotics # the website title (if blank, full name will be used instead)
+title: EFi Robotics # the website title (if blank, full name will be used instead)
 first_name: Efi
 middle_name: 
 last_name: Psomopoulou
@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Logo symbol from <a href="https://icon-icons.com/">icon-icons</a>.
 keywords: robots # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: iconwhitecircle.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icontransparent.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://efi-robotics.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
