@@ -28,7 +28,7 @@ latest_posts:
 Group based in the School of Engineering Mathematics and Technology and led by Dr Efi Psomopoulou, Assistant Professor at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
 
 
-### Research areas
+### research areas
 
 We aim to create dexterous and safe robotic physical interactions with the environment or humans in unstructured scenarios by combining control methods and machine learning techniques.
 * Stable object grasping and in-hand manipulation.
@@ -36,5 +36,3 @@ We aim to create dexterous and safe robotic physical interactions with the envir
 * Control of flexible joint robots with variable elasticity.
 * Non model-based control of robotic systems with prescribed performance guarantees.
 * Bilateral teleoperation with haptic feedback.
-
----
