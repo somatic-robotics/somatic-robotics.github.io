@@ -2,7 +2,7 @@
 layout: none
 title: PIROS
 description: Physically Interactive Robot Services | Aristeia I
-img: assets/img/piros.jpg
+img: assets/img/PIROS.png
 redirect: 
 importance: 4
 category: past projects

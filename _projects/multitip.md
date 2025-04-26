@@ -2,7 +2,7 @@
 layout: distill
 title: MultiTip
 description: Royal Society
-img: assets/img/multitip.png
+img: assets/img/finger-print.svg
 importance: 2
 category: funded projects
 bibliography: distill.bib

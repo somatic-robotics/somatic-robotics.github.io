@@ -2,7 +2,7 @@
 layout: post
 title: Grasping
 description:  
-img: assets/img/grasping.png
+img: assets/img/pick-sample.svg
 importance: 1
 category: research themes
 bibliography: distill.bib

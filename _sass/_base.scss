@@ -1104,6 +1104,12 @@ nav[data-toggle="toc"] {
     height: 0;
     top: 0;
   }
+  .card {
+    width: 70%; /* or whatever size you want */
+    margin: 0 auto; /* optional, center it */
+  }
+
+  
 }
 
 .featured-posts {

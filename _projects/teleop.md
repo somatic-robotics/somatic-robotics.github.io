@@ -2,7 +2,7 @@
 layout: post
 title: Teleoperation
 description: 
-img: assets/img/teleop.png
+img: assets/img/control.svg
 importance: 3
 category: research themes
 bibliography: distill.bib

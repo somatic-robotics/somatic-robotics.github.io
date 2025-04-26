@@ -6,7 +6,7 @@ subtitle: engineering for intelligent robotics
 
 profile:
   align: right
-  image: IntegratedBlueismall.png
+  image: fulllogo.png
   image_cicular: false # crops the image to make it circular
   address: >
   
