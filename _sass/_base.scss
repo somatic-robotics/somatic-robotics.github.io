@@ -43,9 +43,11 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  font-weight: 500;
 
   &:hover {
     color: var(--global-theme-color);
+    font-weight: 500;
     text-decoration: underline;
   }
 
@@ -193,6 +195,7 @@ ul.task-list input[type="checkbox"] {
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+  font-weight: 500;
 }
 
 // Profile
@@ -242,6 +245,7 @@ ul.task-list input[type="checkbox"] {
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
+      font-weight: 500;
     }
   }
 }
@@ -305,6 +309,7 @@ ul.task-list input[type="checkbox"] {
     background-color: inherit;
     font-weight: bold;
     color: var(--global-theme-color);
+    font-weight: 500;
 
     &:hover {
       color: var(--global-hover-color);
@@ -343,6 +348,7 @@ ul.task-list input[type="checkbox"] {
       &:hover {
         i::before {
           color: var(--global-theme-color);
+          font-weight: 500;
         }
       }
     }
@@ -437,6 +443,7 @@ ul.task-list input[type="checkbox"] {
 
         i::before {
           color: var(--global-theme-color);
+          font-weight: 500;
         }
       }
     }
