@@ -2,7 +2,7 @@
 layout: distill
 title: DexFlexArM
 description: Advanced Research + Invention Agency
-img: assets/img/man-vs-robot.svg
+img: assets/img/man-vs-robotorange.svg
 importance: 1
 category: funded projects
 bibliography: distill.bib
