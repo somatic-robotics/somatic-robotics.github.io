@@ -8,29 +8,29 @@
 // Colors
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
+$orange-color: #E9A339 !default;
 $blue-color: #1f75feff !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
+$green-color: #00E3B2 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #70046b !default;
+$purple-color: #A5F3FC !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$yellow-color: #FFD166 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: #EDEDED; // color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #0F1115;
-$grey-900: #1A1D23;
+$grey-color-dark: #121212;
+$grey-900: #1E1E1E;
 
 $white-color: #F5F5F7 !default;
-$black-color: #1E1E1E !default;
+$black-color: #1C1C1E !default;
 
 // Theme colors
 

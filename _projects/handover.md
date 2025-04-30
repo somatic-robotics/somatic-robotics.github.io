@@ -2,7 +2,7 @@
 layout: post
 title: Handover
 description: 
-img: assets/img/robot-arm.svg
+img: assets/img/robot-armorange.svg
 importance: 2
 category: research themes
 bibliography: distill.bib
