@@ -818,6 +818,14 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+        // a.doi.btn {
+        //   border-color: var(--global-link-fr-color);
+
+        //   &:hover {
+        //     color: var(--global-link-fr-hover-color);
+        //     border-color: var(--global-link-fr-hover-color);
+        //   }
+        // }
       }
 
       .badges {
@@ -1064,7 +1072,7 @@ progress::-moz-progress-bar {
 
   .dropdown-item.active,
   .dropdown-item:active {
-    background-color: var(--global-hover-color);
+    background-color: var(--global-hover-color) !important;
     color: var(--global-hover-text-color) !important;
 
     &:hover {

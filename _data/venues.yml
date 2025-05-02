@@ -1,22 +1,14 @@
 "RA-L":
   url: https://www.ieee-ras.org/publications/ra-l
-  color: "#00369f"
 
 "RAM":
   url: https://www.ieee-ras.org/publications/ram
-  color: "#B94CE4"
 
 "ICRA":
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
-  color: "#009f36"
 
 "IROS":
   url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros
-  color: "#E44C4C"
 
 "T-RO":
   url: https://www.ieee-ras.org/publications/t-ro
-  color: "#9F9830"
-
-"PhD":
-  color: "#774CE4"

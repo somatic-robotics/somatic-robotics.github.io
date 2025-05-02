@@ -23,6 +23,14 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #FFD166 !default;
+$rust:         #D87C44;
+$rust-hover:   darken($rust, 5%);
+$teal:         #3A9E9F;
+$teal-hover:   lighten($teal, 5%);
+$slate:        #708090;
+$slate-hover:  lighten($slate, 10%);
+$lavender:     #B37EB5;
+$lavender-hover: lighten($lavender, 8%);
 
 $grey-color: #828282 !default;
 $grey-color-light: #EDEDED; // color.adjust($grey-color, $lightness: 40%);

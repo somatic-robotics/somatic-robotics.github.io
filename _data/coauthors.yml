@@ -3,5 +3,9 @@
     url: https://lepora.com/
 
 "doulgeri":
-  - firstname: ["Zoe", "Z."]
+  - firstname: ["Zoe", "Z.", "Z"]
     url: https://scholar.google.com/citations?user=ubUmUrcAAAAJ&hl=en
+
+"psomopoulou":
+  - firstname: ["Efi", "E.", "E"]
+    url: https://scholar.google.com/citations?user=2aX0g4QAAAAJ&hl=en
