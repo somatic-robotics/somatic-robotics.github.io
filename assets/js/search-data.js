@@ -37,21 +37,32 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "dropdown-join-the-lab",
-              title: "join the lab",
+        },{id: "dropdown-join-the-group",
+              title: "join the group",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/join/";
               },
-            },{id: "dropdown-phd-posts",
-              title: "PhD posts",
+            },{id: "dropdown-phd-openings",
+              title: "PhD openings",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/phd/";
               },
-            },{id: "post-aria-project-awarded",
+            },{id: "post-postdoctoral-position-available",
+        
+          title: "Postdoctoral position available",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/manibot-ra/";
+          
+        },
+      },{id: "post-aria-project-awarded",
         
           title: "ARIA project awarded!",
         
