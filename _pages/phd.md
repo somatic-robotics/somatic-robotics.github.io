@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: PhD posts 
+title: PhD openings 
 permalink: /phd/
 date: 2025-03-12
 tags: grasping manipulation physical-human-robot-interaction
@@ -53,10 +53,12 @@ There are 5 entry points in the Faculty of Engineering:
 
 ### Application process
 
-At the first stage, please apply through the form available [here](https://efi-robotics.com/join/). Please note that you will also need to apply through the university portal if successful after the first stage.
+At the first stage, please apply through the form available [here](https://efi-robotics.com/join/). If successful after the first stage, you will need to apply through the university portal by the faculty's determined deadline.
 
 Personal statement: Please also provide a personal statement that describes your training and experience so far, your motivation for doing a PhD, your motivations for applying to the University of Bristol, and why you think we should select you. We are keen to support applicants from minority and under-represented backgrounds (based on protected characteristics) and those who have experienced other challenges or disadvantages. We encourage you to use your personal statement to ensure we can take these factors into account.
 
 ### Funding information
 
 There is no guaranteed funding for this research. There may be opportunities for scholarships depending on the application competitiveness.
+
+School scholarships are usually open yearly with a deadline in December for a September start. Please get in touch ahead of time through the [form](https://efi-robotics.com/join/) to develop a competitive application.
