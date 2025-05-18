@@ -16,28 +16,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "(non logo icons found on IconScout)",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-videos",
-          title: "videos",
-          description: "Videos of research projects",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/videos/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Relevant GitHub profiles and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "dropdown-join-the-group",
+        },{id: "dropdown-projects",
+              title: "projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "dropdown-videos",
+              title: "videos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/videos/";
+              },
+            },{id: "dropdown-repositories",
+              title: "repositories",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/repositories/";
+              },
+            },{id: "dropdown-join-the-group",
               title: "join the group",
               description: "",
               section: "Dropdown",
@@ -51,7 +51,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/phd/";
               },
-            },{id: "post-postdoctoral-position-available",
+            },{id: "nav-reading",
+          title: "reading",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "post-postdoctoral-position-available",
         
           title: "Postdoctoral position available",
         
@@ -128,11 +135,41 @@ ninja.data = [{
             window.location.href = "/blog/2023/ukras-showcase/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-long-way-to-a-small-angry-planet",
+          title: 'The long way to a small angry planet',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/angryplanet/";
+            },},{id: "books-a-closed-and-common-orbit",
+          title: 'A Closed and Common Orbit',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/closedorbit/";
+            },},{id: "books-record-of-a-spaceborn-few",
+          title: 'Record of a spaceborn few',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/recordofspacebornfew/";
+            },},{id: "books-the-galaxy-and-the-ground-within",
+          title: 'The Galaxy, and the Ground Within',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/galaxyandground/";
+            },},{id: "books-project-hail-mary",
+          title: 'Project Hail Mary',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/projecthailmary/";
+            },},{id: "books-monk-amp-robot-a-psalm-for-the-wild-built",
+          title: 'Monk &amp;amp; Robot - A Psalm for the Wild-Built',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/monkandrobot1/";
+            },},{id: "books-monk-amp-robot-a-prayer-for-the-crown-shy",
+          title: 'Monk &amp;amp; Robot - A Prayer for the Crown-Shy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/monkandrobot2/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
