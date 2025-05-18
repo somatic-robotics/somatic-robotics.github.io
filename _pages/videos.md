@@ -3,7 +3,7 @@ layout: page
 permalink: /videos/
 title: videos
 description: Videos of research projects
-nav: true
+nav: false
 nav_order: 4
 ---
 
