@@ -9,10 +9,6 @@ nav_order: 6
 
 We are always seeking enthusiastic researchers that want to work at the intersection of classical robotics (control), robotic tactile perception, and machine learning methods.
 
-## postodoctoral position
-
-There currently is a position available for the [MANiBOT](https://manibot-project.eu/) project, with a deadline of 1 June 2025. Please apply through [the university portal](https://www.bristol.ac.uk/jobs/find/details/?jobId=375409&jobTitle=Research%20Associate%20in%20Robotics).
-
 ## PhD openings
 
 We are accepting PhD applications all year round. Please see details [here](https://efi-robotics.com/phd/) before filling in the form below.
