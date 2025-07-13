@@ -312,7 +312,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/efi_psomopoulou", "_blank");
+          window.open("https://www.linkedin.com/in/efi-psomopoulou", "_blank");
         },
       },{
         id: 'social-email',
