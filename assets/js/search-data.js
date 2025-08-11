@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-postdoctoral-position-available",
+        },{id: "post-four-papers-accepted",
+        
+          title: "Four papers accepted!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/new-papers/";
+          
+        },
+      },{id: "post-postdoctoral-position-available",
         
           title: "Postdoctoral position available",
         
