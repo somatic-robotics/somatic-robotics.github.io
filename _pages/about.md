@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Group based in the School of Engineering Mathematics and Technology and led by Dr Efi Psomopoulou, Assistant Professor at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
+Group based in the School of Engineering Mathematics and Technology and led by Dr Efi Psomopoulou, Senior Lecturer (US equivalent Associate Professor) at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
 
 
 ### research areas
