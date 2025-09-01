@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-four-papers-accepted",
+        },{id: "post-aria-substack-interview",
+        
+          title: "ARIA Substack Interview",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/aria-substack-interview/";
+          
+        },
+      },{id: "post-four-papers-accepted",
         
           title: "Four papers accepted!",
         
