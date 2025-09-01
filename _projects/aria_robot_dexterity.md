@@ -54,7 +54,5 @@ The project team is led by [Artimus Robotics](https://www.artimusrobotics.com/) 
 
 [Bristol news](https://www.bristol.ac.uk/news/2025/february-/robot-dexterity-funding.html)
 
-[Revolutionizing Robotics: UK Invests £1.5M in Advanced Artificial Muscle Technology for Dexterous Manipulators](https://farmonaut.com/united-kingdom/revolutionizing-robotics-uk-invests-1-5m-in-advanced-artificial-muscle-technology-for-dexterous-manipulators/)
-
-
+[ARIA Substack Interview](https://ariaresearch.substack.com/p/massively-scalable-neurotech-bespoke?open=false#%C2%A7new-material-systems-for-hasel-actuators-a-q-and-a-with-nick-kellaris-artimus-robotics-and-efi-psomopoulou-university-of-bristol)
 
