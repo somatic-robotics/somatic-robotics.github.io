@@ -1,10 +1,10 @@
-"lepora":
-  - firstname: ["Nathan", "N.", "N. F.", "Nathan F.", "Nathan F"]
-    url: https://lepora.com/
+# "lepora":
+#   - firstname: ["Nathan", "N.", "N. F.", "Nathan F.", "Nathan F"]
+#     url: https://lepora.com/
 
-"doulgeri":
-  - firstname: ["Zoe", "Z.", "Z"]
-    url: https://scholar.google.com/citations?user=ubUmUrcAAAAJ&hl=en
+# "doulgeri":
+#   - firstname: ["Zoe", "Z.", "Z"]
+#     url: https://scholar.google.com/citations?user=ubUmUrcAAAAJ&hl=en
 
 "psomopoulou":
   - firstname: ["Efi", "E.", "E"]
