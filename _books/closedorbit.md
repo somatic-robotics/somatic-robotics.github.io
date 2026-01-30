@@ -8,6 +8,7 @@ isbn: 9781473621473 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: science-fiction hopepunk slice-of-life heartwarming
 tags: top-10
 buy_link: https://www.amazon.co.uk/Closed-Common-Orbit-Wayfarers-ebook/dp/B01ARXVTFE/
+date: 2018-07-06
 started: 2018-07-06
 finished: 2018-07-12
 released: 2016

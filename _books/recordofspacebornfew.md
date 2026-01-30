@@ -8,6 +8,7 @@ isbn: 9780062699220 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: science-fiction hopepunk slice-of-life heartwarming
 tags: top-10
 buy_link: https://www.amazon.co.uk/Record-Spaceborn-Few-Wayfarers-3-ebook/dp/B07355XC7L/
+date: 2019-07-21
 started: 2019-07-21
 finished: 2019-08-04
 released: 2018

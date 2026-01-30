@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: SOmatic Motor Adaptation Through Intelligent Control in Robotics
+subtitle: somatic motor adaptation through intelligent control in robotics
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Group based in the School of Engineering Mathematics and Technology and led by Dr Efi Psomopoulou, Senior Lecturer at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
+Lab based in the School of Engineering Mathematics and Technology and led by Dr Efi Psomopoulou, Senior Lecturer at the [University of Bristol](https://research-information.bris.ac.uk/en/persons/efi-psomopoulou) and [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/). Part of the [Dexterous Robotics Theme](https://www.bristolroboticslab.com/dexterous-robotics).
 
 
 ### research areas

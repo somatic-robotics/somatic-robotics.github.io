@@ -7,6 +7,7 @@ isbn: 9781603935470 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: science-fiction hopepunk slice-of-life heartwarming
 tags: top-10
 buy_link: https://www.amazon.co.uk/Project-Hail-Mary-bestselling-Martian-ebook/dp/B08FFJS3YW/
+date: 2025-01-02
 started: 2025-01-02
 finished: 2025-03-09
 released: 2021

@@ -7,6 +7,7 @@ isbn: 9781250236227 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: science-fiction hopepunk slice-of-life heartwarming
 tags: top-10
 buy_link: https://www.amazon.co.uk/Monk-Robot-Wild-Built-Prayer-Crown-Shy/dp/1250386330/
+date: 2021-07-13
 started: 2021-07-13
 finished: 2021-08-09
 released: 2021

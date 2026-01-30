@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /join/
-title: join the group
+title: join the lab
 description: register your interest
 nav: false
 nav_order: 6
