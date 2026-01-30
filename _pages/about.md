@@ -6,7 +6,7 @@ subtitle: somatic motor adaptation through intelligent control in robotics
 
 profile:
   align: right
-  image: logoorange.png
+  image: #logoorange.png
   image_cicular: false # crops the image to make it circular
   address: >
   

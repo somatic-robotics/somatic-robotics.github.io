@@ -17,9 +17,7 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            <a class="navbar-brand" href="/">
-              <img src="/assets/img/LogohorizontalOrange.svg" width="87" height="30" alt="">
-            </a>
+            {{- site.title -}}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
