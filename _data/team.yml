@@ -9,67 +9,97 @@ current:
     role: Senior Research Associate
     image: /assets/img/silvia.jpg
     supervisor: 
-    project: "Human-inspired human-robot object handover strategies"
+    project: "soft robotics, FEM modelling"
 
   - name: Ertug Ovur
     role: Research Associate
     image: /assets/img/ertug.jpg
     supervisor: 
-    project: "Human-inspired human-robot object handover strategies"
+    project: "bimanual manipulation with tactile feedback"
 
   - name: Laura Butcher
     role: PhD Student
     image: /assets/img/laura.jpg
     supervisor: 
-    project: "Human-inspired human-robot object handover strategies"
+    project: "tactile sensing for robotic manipulation"
 
   - name: Youssef Alboraei
     role: PhD Student
     image: /assets/img/youssef.jpg
     supervisor: 
-    project: "Control of flexible joint robots with variable elasticity"
+    project: "control of soft actuators for robot manipulation"
 
   - name: Kaichen Shi
     role: Research Assistant
-    image: /assets/img/youssef.jpg
+    image: /assets/img/kaichen.jpg
     supervisor: 
-    project: "Control of flexible joint robots with variable elasticity"
+    project: "machine learning for tactile perception"
 
 co_supervision:
-  - name: Sarah Johnson
-    role: PhD Student
-    image: /assets/img/sarah.jpg
-    supervisor: Dr. John Smith
-    project: "Robotic grasping in unstructured environments"
+  - name: Christopher Ford
+    role: Research Associate
+    image: /assets/img/chris.jpg
+    supervisor: Nathan Lepora
+    project: "Tactile control"
 
-  - name: Michael Lee
-    role: MSc Student
-    image: /assets/img/michael.jpg
-    supervisor: Dr. Jane Doe
-    project: "Haptic feedback in teleoperation systems"
+  - name: Harry Field
+    role: PhD Student
+    image: /assets/img/harry.jpg
+    supervisor: Nathan Lepora
+    project: "LLM-based tactile perception for robotic manipulation"
+
+  - name: Xiaoqing Guo
+    role: PhD Student
+    image: /assets/img/xiaoqing.jpg
+    supervisor: Nathan Lepora
+    project: "Tactile sensing and haptic feedback"
+
+  - name: Boang Guan
+    role: PhD Student
+    image: /assets/img/boang.jpg
+    supervisor: Nathan Lepora
+    project: "tactile sensing, VR robot control"
+
+  - name: Yanhui Lu
+    role: PhD Student
+    image: /assets/img/yanhui.jpg
+    supervisor: Ben Ward-Cherrier
+    project: "neuromorphic tactile sensing"
+  
+  - name: Piran Fletcher
+    role: PhD Student
+    image: /assets/img/piran.jpg
+    supervisor: Nathan Lepora
+    project: "distributed robot control"
 
 msc_students:
-  - name: Emily Carter
-    role: MSc Student
-    image: /assets/img/emily.jpg
-    supervisor: Dr. Efi Psomopoulou
+  - name: Vandam Dinh
+    role: MEng Student
+    image: /assets/img/vandam.jpg
+    supervisor: 
     project: "Machine learning for robotic control"
 
-  - name: James Wilson
+  - name: Mehdi Amara
+    role: MEng Student
+    image: /assets/img/mehdi.jpg
+    supervisor: 
+    project: "Teleoperation with haptic feedback"
+
+  - name: Mehdi Amara
     role: MSc Student
-    image: /assets/img/james.jpg
-    supervisor: Dr. Efi Psomopoulou
+    image: /assets/img/mehdi.jpg
+    supervisor: 
     project: "Teleoperation with haptic feedback"
 
 alumni:
-  - name: Alice Brown
-    role: Former Research Assistant
-    image: /assets/img/alice.jpg
-    supervisor: Dr. Efi Psomopoulou
-    project: "Stable object grasping and in-hand manipulation"
+  - name: Kaichen Shi
+    role: Msc Student
+    project: "Calibrating tactile sensing: Learning and fine-tuning for optical fibre-based Tactip sensors"
 
-  - name: Bob Green
-    role: Former PhD Student
-    image: /assets/img/bob.jpg
-    supervisor: Dr. Efi Psomopoulou
+  - name: Weifangming Wang
+    role: Msc Student
+    project: "Mapping Human Hand Motion to Robotic Hands for Teleoperation"
+    
+  - name: Haoran Li
+    role: PhD Student
     project: "Bilateral teleoperation with haptic feedback"

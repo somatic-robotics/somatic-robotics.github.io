@@ -49,7 +49,7 @@ nav_order: 5
 
 ---
 
-### msc students
+### msc/meng students
 
 <div class="team-grid">
   {% assign msc_students = site.data.team.msc_students %}
