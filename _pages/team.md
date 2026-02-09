@@ -7,14 +7,13 @@ nav: true
 nav_order: 5
 ---
 
-### core members
 
 <div class="team-grid">
   {% assign current_members = site.data.team.current %}
   {% for member in current_members %}
   <div class="team-member">
     <img src="{{ member.image }}" alt="{{ member.name }}" class="team-photo">
-    <h4>{{ member.name }}</h4>
+    <h4>{% if member.link and member.link != "" %}<a href="{{ member.link }}" target="_blank">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
     <p class="role">{{ member.role }}</p>
     {% if member.supervisor and member.supervisor != "" %}
     <p><strong>Supervisor:</strong> {{ member.supervisor }}</p>
@@ -28,7 +27,7 @@ nav_order: 5
 
 ---
 
-### co-supervision
+<!-- ### co-supervision
 
 <div class="team-grid">
   {% assign co_supervised_members = site.data.team.co_supervision %}
@@ -47,11 +46,20 @@ nav_order: 5
   {% endfor %}
 </div>
 
----
+--- -->
 
 ### msc/meng students
 
-<div class="team-grid">
+<ul class="alumni-list">
+  {% assign msc_students = site.data.team.msc_students %}
+  {% for member in msc_students %}
+  <li>
+    <strong>{{ member.name }}</strong> - {{ member.role }}{% if member.project and member.project != "" %}, <em>{{ member.project }}</em>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<!-- <div class="team-grid">
   {% assign msc_students = site.data.team.msc_students %}
   {% for student in msc_students %}
   <div class="team-member">
@@ -66,7 +74,7 @@ nav_order: 5
     {% endif %}
   </div>
   {% endfor %}
-</div>
+</div> -->
 
 ---
 
@@ -76,7 +84,7 @@ nav_order: 5
   {% assign alumni_members = site.data.team.alumni %}
   {% for member in alumni_members %}
   <li>
-    <strong>{{ member.name }}</strong> - {{ member.role }}{% if member.project and member.project != "" %}, <em>{{ member.project }}</em>{% endif %}
+    {% if member.link and member.link != "" %}<a href="{{ member.link }}" target="_blank"><strong>{{ member.name }}</strong></a>{% else %}<strong>{{ member.name }}</strong>{% endif %} - {{ member.role }}{% if member.project and member.project != "" %}, <em>{{ member.project }}</em>{% endif %}{% if member.year and member.year != "" %} ({{ member.year }}){% endif %}
   </li>
   {% endfor %}
 </ul>
