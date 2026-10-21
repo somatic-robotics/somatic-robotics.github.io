@@ -335,6 +335,11 @@ ninja.data = [{
           description: "Physically Interactive Robot Services | Aristeia I",
           section: "Projects",handler: () => {
               window.location.href = "/projects/piros/";
+            },},{id: "projects-eco-robots",
+          title: 'Eco Robots',
+          description: "Research England / Policy Bristol",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/proteas/";
             },},{id: "projects-ramcip",
           title: 'RAMCIP',
           description: "Robotic Assistant for MCI Patients | H2020",
@@ -407,7 +412,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("https://bsky.app/profile/efi-robotics.com", "_blank");
+          window.open("https://bsky.app/profile/somatic-robotics.com", "_blank");
         },
       },{
         id: 'social-work',
