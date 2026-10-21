@@ -6,7 +6,7 @@ subtitle: embodied intelligence for contact-rich robot manipulation
 
 profile:
   align: right
-  image: #logoorange.png
+  image: fulllogo.png
   image_cicular: false # crops the image to make it circular
   address: >
   
