@@ -91,26 +91,13 @@ co_supervision:
     project: "distributed robot control"
     link: ""
 
-msc_students:
-  - name: Yiwei Wu 
-    role: MSc in Robotics
-    project: "OptiTouch: Colour-Coded Fibre-Optic Tactile Sensing for Shear and Slip"
-    link: ""
+msc_students: []
+  # - name: Yiwei Wu 
+  #   role: MSc in Robotics
+  #   project: "OptiTouch: Colour-Coded Fibre-Optic Tactile Sensing for Shear and Slip"
+  #   link: ""
 
-  - name: Linyue Zhang
-    role: MSc in Aerial Robotics
-    project: "An underactuated linkage-driven tactile robotic finger"
-    link: ""
-
-  - name: Junqi Li
-    role: MSc in BioRobotics
-    project: "Tactile-only geometric shape classification"
-    link: ""  
-
-  - name: Yingjun Xiang
-    role: MSc in BioRobotics
-    project: "Learning manipulation skills from demonstrations"
-    link: ""  
+ 
 
 
 alumni:
@@ -131,6 +118,30 @@ alumni:
     project: "The Tactile SoftHand: An Underactuated, Anthropomorphic Hand with a Biomimetic Sense of Touch"
     year: 2024
     link: "https://research-information.bris.ac.uk/en/studentTheses/the-tactile-softhand-an-underactuated-anthropomorphic-hand-with-a/"
+
+  - name: Yiwei Wu 
+    role: MSc in Robotics
+    project: "OptiTouch: Colour-Coded Fibre-Optic Tactile Sensing for Shear and Slip"
+    year: 2026
+    link: ""
+
+  - name: Linyue Zhang
+    role: MSc in Aerial Robotics
+    project: "A Back-Drivable Fingertip Extends the Grasp Reaction Window Beyond Loop Latency"
+    year: 2026
+    link: ""
+
+  - name: Junqi Li
+    role: MSc in BioRobotics
+    project: "Understanding Geometric Shape Classification from Touch: The Role of Tactile Features and Sensing Conditions"
+    year: 2026
+    link: ""  
+
+  - name: Yingjun Xiang
+    role: MSc in BioRobotics
+    project: "Retargeting Objectives Are Not Morphology Neutral: A Five-Hand Study of Pose Fidelity"
+    year: 2026
+    link: "" 
 
   - name: Vandam Dinh
     role: MEng in Engineering Mathematics

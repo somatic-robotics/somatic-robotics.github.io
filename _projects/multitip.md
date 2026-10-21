@@ -42,7 +42,7 @@ WP2 – Skin Redesign and Dynamic Modelling. To create a virtual simulator, it w
 
 WP3 – Tactile Data-based Object Manipulations via Sim2Real Transfer. We aim to show object manipulation skills that has been challenging with VBTS based only on SA-type signal sensing, by using the outcomes developed in WP1 and WP2 along with the latest AI techniques that have been trialled in the hosting institution.
 
-Related publications include: <d-cite key="10496158RAN"></d-cite>
+Related publications include: <d-cite key="10496158RAN"></d-cite>, <d-cite key="terrile2026femvalidatedrealtimemodellingsoft"></d-cite>
 
 ## Project Partners and Funding
 

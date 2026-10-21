@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: PhD openings 
+title: PhD opportunities 
 permalink: /phd/
 date: 2025-03-12
 tags: grasping manipulation physical-human-robot-interaction
@@ -21,22 +21,26 @@ toc:
 
 ### Project information
 
-What if robots had human-like general dexterity? What would it take to design a controller which achieves this goal and which is not computationally expensive to train or run? How would the control design inform the hardware necessary and vice versa? How would the design of the embodied solution ensure that the system is stable, robust and safe? What would a general purpose robot end-effector look like?
+How can robots determine whether physical contact is secure, regulate it before failure, and adapt these principles across objects, hands and tasks?
 
-Successful applicants will work towards answering some of these questions by choosing one or a combination of two avenues: 
-- (1) explore hardware design for general robot manipulation focusing on optimising degrees of actuation and types of sensing and/or 
-- (2) explore dynamically stable control methods for robot grasping and in-hand manipulation which are model-free and object-agnostic. 
+Our research addresses the fundamental science of robotic dexterity: how robots sense, regulate and adapt physical contact to manipulate objects skilfully. Prospective PhD projects will normally centre on one clearly defined research question within one of the following connected directions:
 
-Physics-based simulation provides an accelerated and safe avenue for developing, verifying, and testing robotic control algorithms and prototype designs. They rely on the laws of physics to predict the behaviour of the dynamic system of interest and so they use dynamics engines. The designs will be tested and evaluated initially in a simulated environment, but will then be implemented on real robotic platforms.
+- **Embodied tactile sensing and contact-state estimation:** investigating how tactile history, sensor mechanics and morphology make contact properties observable. Topics may include dynamic, event-based or multimodal tactile sensing; time-series models; contact geometry and force estimation; and uncertainty quantification.
+- **Mechanics-informed learning and control for dexterous manipulation:** combining tactile feedback with contact geometry and mechanics to develop stable and adaptive methods for grasping, pinching and in-hand manipulation. This may include structured learned policies and uncertainty-aware limits on physical interaction.
+- **Robot hands, morphology and simulation:** studying how softness, compliance, underactuation, sensing and actuation shape dexterous behaviour. Projects may use physics-based simulation, finite-element models and learned surrogate models for virtual prototyping, controller development and sim-to-real transfer.
 
-We seek talented and motivated new PhD students to join our team at the University of Bristol. The successful applicants will be supervised by Dr Efi Psomopoulou and will join the largest centre for multidisciplinary robotics research in the UK, [Bristol Robotics Laboratory](https://www.bristolroboticslab.com/).
+A PhD would not be expected to address all three directions. A strong project should begin with a focused scientific hypothesis and use sensing, modelling, control, learning or hardware development as methods for testing it.
+
+Depending on the project, the research may involve analytical modelling, control design, machine learning, physics-based simulation, hardware prototyping and experimental validation on robotic platforms. We are particularly interested in methods that remain physically interpretable and whose assumptions can be tested through carefully designed experiments.
+
+Prospective students will be supervised by Dr Efi Psomopoulou at the University of Bristol and will join the Bristol Robotics Laboratory, a multidisciplinary robotics research environment.
 
 
 ### Candidate requirements
 
 Applicants must hold/achieve a minimum of a merit at master’s degree level (or international equivalent) in a science, mathematics or engineering discipline. Applicants without a master's qualification may be considered on an exceptional basis, provided they hold a first-class undergraduate degree. Please note, acceptance will also depend on evidence of readiness to pursue a research degree. 
 
-We strongly encourage applications from STEM with experience in engineering / robotics (e.g., mathematics, control theory, robotics, computer science, mechatronics, or other related engineering discipline). You will need to demonstrate your ability in conducting research in a related field or a strong motivation in learning those skills.
+We welcome applicants from backgrounds including robotics, engineering mathematics, control, computer science, mechanical or electronic engineering, mechatronics, and related disciplines. Strong applicants will normally bring experience in at least one relevant area—such as mathematical modelling, control, machine learning, simulation, tactile sensing, mechanical design or experimental robotics—together with a clear motivation to develop the complementary skills required by the project. We do not expect applicants to already be specialists in every area.
 
 If English is not your first language, you need to meet this profile level: Profile E 
 
@@ -53,7 +57,7 @@ There are 5 entry points in the Faculty of Engineering:
 
 ### Application process
 
-At the first stage, please apply through the form available [here](https://efi-robotics.com/join/). If successful after the first stage, you will need to apply through the university portal by the faculty's determined deadline.
+At the first stage, please apply through the form available [here](https://somatic-robotics.com/join/). If successful after the first stage, you will need to apply through the university portal by the faculty's determined deadline.
 
 Personal statement: Please also provide a personal statement that describes your training and experience so far, your motivation for doing a PhD, your motivations for applying to the University of Bristol, and why you think we should select you. We are keen to support applicants from minority and under-represented backgrounds (based on protected characteristics) and those who have experienced other challenges or disadvantages. We encourage you to use your personal statement to ensure we can take these factors into account.
 
@@ -61,4 +65,4 @@ Personal statement: Please also provide a personal statement that describes your
 
 There is no guaranteed funding for this research. There may be opportunities for scholarships depending on the application competitiveness.
 
-School scholarships are usually open yearly with a deadline in December for a September start. Please get in touch ahead of time through the [form](https://efi-robotics.com/join/) to develop a competitive application.
+School scholarships are usually open yearly with a deadline in December for a September start. Please get in touch ahead of time through the [form](https://somatic-robotics.com/join/) to develop a competitive application.

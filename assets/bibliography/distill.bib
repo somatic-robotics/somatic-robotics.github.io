@@ -1,4 +1,22 @@
 
+@ARTICLE{terrile2026femvalidatedrealtimemodellingsoft,
+      abbr = {arXiv},
+      title={FEM-Validated Real-Time Modelling of Soft Tactile Deformation}, 
+      author={Silvia Terrile and Kaichen Shi and Taejun Kwon and Jiseok Lee and Nathan Lepora and Yeejin Lee and Saekwang Nam and Efi Psomopoulou},
+      year={2026},
+      eprint={2610.16667},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2610.16667}, 
+      arxiv={2610.16667},
+      pdf={https://arxiv.org/pdf/2610.16667},
+      doi={10.48550/arXiv.2610.16667},
+      altmetric = {true},
+      dimensions={true},
+      html={https://arxiv.org/html/2610.16667},
+      abstract={Accurate modelling of soft tactile sensors remains difficult because finite element methods (FEM) are computa- tionally expensive, while real-time simulators often lack fidelity for hyperelastic deformation. Large physical datasets are also impractical to collect because repeated testing can damage fragile sensors. We present a data-efficient framework that combines limited real-world validation, high-fidelity FEM, and graph neural networks (GNNs) for accurate real-time prediction of two-dimensional tactile deformation in a planar soft tactile structure. The key idea is to decouple validation from training: 82 camera-tracked contact configurations are used only to tune and validate an ANSYS FEM model, which then generates 768 synthetic contact scenarios for GNN training. We evaluate both forward prediction from marker deformation to contact localisation and inverse inference from contact configuration to marker deformation. The validated FEM achieves sub-0.5 mm error in more than 90% of validation cases, while the learned GNN surrogate reaches a mean absolute error of 0.32 mm with millisecond-scale inference, compared with minute-scale FEM simulation. Models trained entirely on synthetic FEM data retain sub-millimetre accuracy on real measurements from the 2D tactile structure, demonstrating strong sim-to-real transfer within the tested planar setting. We further integrate the learned model into a real-time visualisation pipeline, enabling rapid deformation prediction for virtual prototyping and simulator-based design exploration without extensive physical testing.}
+}
+
 @ARTICLE{10496158,
   abbr = {TRO},
   author={Ford, Christopher and Li, Haoran and Catalano, Manuel Giuseppe  and Bianchi, Matteo and Psomopoulou, Efi and Lepora, Nathan F},

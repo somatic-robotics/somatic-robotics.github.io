@@ -1,6 +1,77 @@
 ---
 ---
 
+@ARTICLE{terrile2026femvalidatedrealtimemodellingsoft,
+      abbr = {arXiv},
+      title={FEM-Validated Real-Time Modelling of Soft Tactile Deformation}, 
+      author={Silvia Terrile and Kaichen Shi and Taejun Kwon and Jiseok Lee and Nathan Lepora and Yeejin Lee and Saekwang Nam and Efi Psomopoulou},
+      year={2026},
+      eprint={2610.16667},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2610.16667}, 
+      arxiv={2610.16667},
+      pdf={https://arxiv.org/pdf/2610.16667},
+      doi={10.48550/arXiv.2610.16667},
+      altmetric = {true},
+      dimensions={true},
+      html={https://arxiv.org/html/2610.16667},
+      abstract={Accurate modelling of soft tactile sensors remains difficult because finite element methods (FEM) are computa- tionally expensive, while real-time simulators often lack fidelity for hyperelastic deformation. Large physical datasets are also impractical to collect because repeated testing can damage fragile sensors. We present a data-efficient framework that combines limited real-world validation, high-fidelity FEM, and graph neural networks (GNNs) for accurate real-time prediction of two-dimensional tactile deformation in a planar soft tactile structure. The key idea is to decouple validation from training: 82 camera-tracked contact configurations are used only to tune and validate an ANSYS FEM model, which then generates 768 synthetic contact scenarios for GNN training. We evaluate both forward prediction from marker deformation to contact localisation and inverse inference from contact configuration to marker deformation. The validated FEM achieves sub-0.5 mm error in more than 90% of validation cases, while the learned GNN surrogate reaches a mean absolute error of 0.32 mm with millisecond-scale inference, compared with minute-scale FEM simulation. Models trained entirely on synthetic FEM data retain sub-millimetre accuracy on real measurements from the 2D tactile structure, demonstrating strong sim-to-real transfer within the tested planar setting. We further integrate the learned model into a real-time visualisation pipeline, enabling rapid deformation prediction for virtual prototyping and simulator-based design exploration without extensive physical testing.}
+}
+
+@ARTICLE{butcher2026artificialnervesbiomimeticopticalfiber,
+      abbr = {arXiv},
+      title={Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots}, 
+      author={Laura E. Butcher and Chris J. Ford and Nathan F. Lepora and Efi Psomopoulou},
+      year={2026},
+      eprint={2607.15746},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.15746}, 
+      arxiv={2607.15746},
+      pdf={https://arxiv.org/pdf/2607.15746},
+      doi={10.48550/arXiv.2607.15746},
+      altmetric = {true},
+      dimensions={true},
+      html={https://arxiv.org/html/2607.15746},
+      abstract={Robotic systems increasingly demand tactile sensing that approaches the adaptability and resolution of human skin to enable dexterous manipulation and safe interaction. OptiTac is a biomimetic tactile sensor that emulates the mechanoreceptor-to-nerve architecture of human touch by pairing each mechanical pin on a soft skin with an optical fiber acting as an artificial nerve. This design demonstrates an architectural principle for routing tactile information away from the sensing surface while preserving high spatial resolution, establishing a practical route toward distributed tactile sensing in future robotic systems. By treating tactile signals as images, simple analytical methods, rather than opaque deep-learning models, are used to infer contact location, size, and shape, providing interpretable and scalable tactile intelligence. This work demonstrates how evolutionary principles from biology can guide the development of artificial nerve systems for robots, offering a pathway toward human-like tactile perception in next-generation robotic platforms. More broadly, OptiTac establishes an artificial nerve-inspired sensing framework for interpretable robotic touch and a scalable route toward future distributed tactile systems.}
+}
+
+@ARTICLE{lu2026staticdynamicrepresentationstactile,
+      abbr = {arXiv},
+      title={Static and Dynamic Representations for Tactile Contact-Angle Estimation with Event-Based Sensors}, 
+      author={Yanhui Lu and Efi Psomopoulou and Benjamin Ward-Cherrier},
+      year={2026},
+      eprint={2606.03545},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2606.03545},
+      arxiv={2606.03545},
+      pdf={https://arxiv.org/pdf/2606.03545},
+      doi={10.48550/arXiv.2606.03545},
+      altmetric = {true},
+      dimensions={true},
+      html={https://arxiv.org/html/2606.03545},
+      abstract={Event-based tactile sensing offers low-latency signal acquisition for contact-rich robotic interaction. This paper investigates contact-angle estimation using event streams from an event-based tactile sensor (NeuroTac) and compares three event-derived spatial contour representations: a dynamic representation capturing recent event activity, a static representation recovering a more persistent contact state, and their combined representation. Across the evaluated motion scenarios, all representation pipelines exhibited P99 processing latency below 10 ms at all tested sampling intervals, demonstrating their potential for high-frequency event-based tactile angle estimation in robotic manipulation. The static representation consistently achieved marginally better performance than the dynamic and combined representations under scenario-specific training, yielding a mean overall MAE of 0.160° during continuous sensor rolling and a stop-phase mean MAE of 0.251° during randomly inserted motion interruptions. It also exhibited smaller performance fluctuations across speed and indentation depth variations than the other two representations.}
+}
+
+@ARTICLE{tacpulse,
+  abbr = {RA-L},
+  author={Guan, Boang and Guo, Xiaoqing and Lepora, Nathan F. and Psomopoulou, Efi},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={TacPulse: Pulse Measurement via Vision-Based Tactile Sensing}, 
+  year={2026},
+  volume={11},
+  number={10},
+  pages={11530-11536},
+  altmetric = {true},
+  dimensions={true},
+  keywords={Morphology;Deformation;Measurement;Arteries;Timing;Image sensors;Contacts;Recording;Visual systems;Signal detection;Force and tactile sensing;medical robots and systems;soft sensors and actuators},
+  doi={10.1109/LRA.2026.3726341},
+  abstract={TacPulse is apulse-sensing system built on vision- based tactile technology. Pulse information is conventionally acquired using optical or electrical techniques, often relying on electrode patches or ultrasound imaging. In contrast, TacPulse employs a bio-inspired, fingertip-sized soft sensor that concentrates pressure over the radial or ulnar artery, while an embedded camera captures skin deformations in real time. From frame-to-frame structural similarity, we establish a method to capture micrometre-scale deformations; a concise and efficient signal-processing pipeline yields high-SNR pulse waveforms. Across varying contact conditions, we observed reproducible systolic-diastolic dual-peak morphology of peripheral pulses, with amplitude ratios and normalized intervals consistent with qualitative expectations of peripheral pulse morphology. Furthermore, we report substantial signal-to-noise ratio gains and qualitative morphology-level correspondence with canonical cardiac waveform features. To our knowledge, this is the first vision-based tactile system to clearly and reproducibly capture dual-peak pulse morphology, enabling quantitative morphology analysis. These results suggest that vision-based tactile fingertips could provide a promising route for future low-cost physiological sensing and human-centred robotics applications.}
+  }
+
+
 @ARTICLE{lin2025neuraltouchneuraldescriptorsprecise,
 abbr = {T-MECH},
 journal={IEEE Transactions on Mechatronics},
@@ -35,7 +106,7 @@ archivePrefix={arXiv},
 primaryClass={cs.RO},
 abstract = {Rapid deployment of new tactile sensors is essential for scalable robotic manipulation, especially in multi-fingered hands equipped with vision-based tactile sensors. However, current methods for inferring contact properties rely heavily on convolutional neural networks (CNNs), which, while effective on known sensors, require large, sensor-specific datasets. Furthermore, they require retraining for each new sensor due to differences in lens properties, illumination, and sensor wear. Here we introduce TacViT, a novel tactile perception model based on Vision Transformers, designed to generalize on new sensor data. TacViT leverages global self-attention mechanisms to extract robust features from tactile images, enabling accurate contact property inference even on previously unseen sensors. This capability significantly reduces the need for data collection and retraining, accelerating the deployment of new sensors. We evaluate TacViT on sensors for a five-fingered robot hand and demonstrate its superior generalization performance compared to CNNs. Our results highlight TacViTs potential to make tactile sensing more scalable and practical for real-world robotic applications.},
 selected = {true},
-note={accepted}
+note={presented}
 }
 
 @INPROCEEDINGS{dhillon,
@@ -54,7 +125,7 @@ pdf={https://arxiv.org/pdf/2604.00738},
 archivePrefix={arXiv},
 abstract={This paper presents the SoftHand Model-W: a 3D-printed, underactuated, anthropomorphic robot hand based on the Pisa/IIT SoftHand, with an integrated antagonistic tendon mechanism and 2 degree-of-freedom tendon-driven wrist. These four degrees-of-acuation provide active flexion and extension to the five fingers, and active flexion/extension and radial/ulnar deviation of the palm through the wrist, while preserving the synergistic and self-adaptive features of such SoftHands. A carpal tunnel-inspired tendon routing allows remote motor placement in the forearm, reducing distal inertia and maintaining a compact form factor. The SoftHand-W is mounted on a 6-axis robot arm and tested with two reorientation tasks requiring coordination between the hand and arm's pose: cube stacking and in-plane disc rotation. Results comparing task time, arm joint travel, and configuration changes with and without wrist actuation show that adding the wrist reduces compensatory and reconfiguration movements of the arm for a quicker task-completion time. Moreover, the wrist enables pick-and-place operations that would be impossible otherwise. Overall, the SoftHand Model-W demonstrates how proximal degrees of freedom are key to achieving versatile, human-like manipulation in real world robotic applications, with a compact design enabling deployment in research and assistive settings.},
 primaryClass={cs.RO},
-note={accepted}
+note={presented}
 }
 
 
@@ -246,7 +317,6 @@ dimensions={true},
 url={https://openreview.net/forum?id=8Yu0TNJNGK},
 html = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-86000729827&partnerID=40&md5=84efdbf87b0a5266294d200cdc276912},
 abstract = {Human hands are capable of in-hand manipulation in the presence of different hand motions. For a robot hand, harnessing rich tactile information to achieve this level of dexterity still remains a significant challenge. In this paper, we present AnyRotate, a system for gravity-invariant multi-axis in-hand object rotation using dense featured sim-to-real touch. We tackle this problem by training a dense tactile policy in simulation and present a sim-to-real method for rich tactile sensing to achieve zero-shot policy transfer. Our formulation allows the training of a unified policy to rotate unseen objects about arbitrary rotation axes in any hand direction. In our experiments, we highlight the benefit of capturing detailed contact information when handling objects with varying properties. Interestingly, despite not having explicit slip detection, we found rich multi-fingered tactile sensing can implicitly detect object movement within grasp and provide a reactive behavior that improves the robustness of the policy. The project website can be found at this https URL.},
-selected = {true},
 website = {https://maxyang27896.github.io/anyrotate/},
 video = {https://www.youtube.com/embed/0pli0-QvTgc?si=It2WrWhHdWjJwblU},
 pdf = {https://arxiv.org/pdf/2405.07391}

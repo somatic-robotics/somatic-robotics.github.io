@@ -9,9 +9,9 @@ nav_order: 6
 
 We are always seeking enthusiastic researchers that want to work at the intersection of classical robotics (control), robotic tactile perception, and machine learning methods.
 
-## PhD openings
+## PhD opportunities
 
-We are accepting PhD applications all year round. Please see details [here](https://efi-robotics.com/phd/) before filling in the form below.
+We are accepting PhD expressions of interest all year round. Please see details [here](https://somatic-robotics.com/phd/) before filling in the form below.
 
 ## fellowships for postdoctoral researchers
 

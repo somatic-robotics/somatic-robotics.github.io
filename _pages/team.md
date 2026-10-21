@@ -190,6 +190,32 @@ nav_order: 5
 </ul>
 {% endif %}
 
+<!-- MSc in BioRobotics -->
+{% assign msc_robotics = alumni_members | where: "role", "MSc in BioRobotics" | sort: "year" | reverse  %}
+{% if msc_robotics.size > 0 %}
+<h4 class="alumni-category">MSc in BioRobotics</h4>
+<ul class="alumni-list">
+  {% for member in msc_robotics %}
+  <li>
+    {% if member.link and member.link != "" %}<a href="{{ member.link }}" target="_blank"><strong>{{ member.name }}</strong></a>{% else %}<strong>{{ member.name }}</strong>{% endif %}{% if member.project and member.project != "" %}, <em>{{ member.project }}</em>{% endif %} ({{ member.year }})
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<!-- MSc in Aerial Robotics -->
+{% assign msc_robotics = alumni_members | where: "role", "MSc in Aerial Robotics" | sort: "year" | reverse  %}
+{% if msc_robotics.size > 0 %}
+<h4 class="alumni-category">MSc in Aerial Robotics</h4>
+<ul class="alumni-list">
+  {% for member in msc_robotics %}
+  <li>
+    {% if member.link and member.link != "" %}<a href="{{ member.link }}" target="_blank"><strong>{{ member.name }}</strong></a>{% else %}<strong>{{ member.name }}</strong>{% endif %}{% if member.project and member.project != "" %}, <em>{{ member.project }}</em>{% endif %} ({{ member.year }})
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
 <!-- MSc in Data Science -->
 {% assign msc_data_science = alumni_members | where: "role", "MSc in Data Science" | sort: "year" | reverse %}
 {% if msc_data_science.size > 0 %}

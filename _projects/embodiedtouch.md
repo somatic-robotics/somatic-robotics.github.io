@@ -39,6 +39,9 @@ We treat tactile sensing and morphology as part of robot intelligence, not just 
 ### selected related work
 - **biotactip: a soft biomimetic optical tactile sensor for efficient 3d contact localization and 3d force estimation** — a tactile sensor and model for efficient estimation of contact location, depth, and force. {% cite 10496158RAN %}
 - **how to train your tactile model: tactile perception with multi-fingered robot hands** — tactile perception that generalises across previously unseen sensor data. {% cite kaichen %}
+- **fem-validated real-time modelling of soft tactile deformation** — physics-grounded surrogate modelling that combines real-world validation, finite-element simulation, and graph neural networks for real-time prediction of soft tactile deformation. {% cite terrile2026femvalidatedrealtimemodellingsoft %}
+- **towards artificial nerves: biomimetic optical-fiber tactile sensing for robots** — a biomimetic fibre-routing architecture for scalable, distributed, and interpretable tactile sensing. {% cite butcher2026artificialnervesbiomimeticopticalfiber %}
+- **tacpulse: pulse measurement via vision-based tactile sensing** — vision-based tactile measurement of micrometre-scale skin deformation and peripheral pulse morphology. {% cite tacpulse %}
 - **classification of vision-based tactile sensors: a review** — a review and taxonomy of vision-based tactile sensing technologies and interpretation methods. {% cite 11134134sens %}
 - **tactile softhand-a: 3d-printed, tactile, highly-underactuated, anthropomorphic robot hand with an antagonistic tendon mechanism** — a tactile, low-cost, underactuated hand platform for embodied manipulation. {% cite RanPreprint %}
 - **softhand model-w: a 3d-printed, anthropomorphic, underactuated robot hand with integrated wrist and carpal tunnel** — an embodied robot-hand platform extending the lab’s work on morphology and dexterity. {% cite dhillon %}
@@ -47,7 +50,7 @@ We treat tactile sensing and morphology as part of robot intelligence, not just 
 
 ### where this is going
 
-this theme is moving toward multimodal tactile representations, cross-sensor generalisation, morphology-aware learning, and touch-informed sim-to-real manipulation.
+this theme is moving toward distributed and multimodal tactile architectures, physics-grounded real-time sensor models, cross-sensor generalisation, and touch-informed sim-to-real manipulation.
 
 ---
 
